@@ -44,7 +44,7 @@
   position: absolute;
   top: -16px;
   right: -16px;
-  background-image: url('../../img/check.png');
+  background-image: url('../img/check.png');
   background-size: 100%;
   background-color: $check; 
   border-radius: 50%;
@@ -145,7 +145,7 @@
   position: absolute;
   top: -16px;
   right: -16px;
-  background-image: url('../../img/check.png');
+  background-image: url('../img/check.png');
   background-size: 100%;
   background-color: $check; 
   border-radius: 50%;
@@ -311,7 +311,7 @@
 }
 
 .form__sign_input:valid + .form__sign_status{
-  background-image: url(../img/check.png);
+  background-image: url('../img/check.png');
   background-size: 100%;
 }
 
@@ -320,7 +320,7 @@
 }
 
 .form__sign_input:invalid + .form__sign_status{
-  background-image: url(../img/notcheck.png);
+  background-image: url('../img/notcheck.png');
   background-size: 100%;
 }
 
@@ -390,7 +390,7 @@
 }
 
 .card__input:valid + .card__input_status{
-  background-image: url(../img/check.png);
+  background-image: url('../img/check.png');
   background-size: 100%;
 }
 
@@ -399,7 +399,7 @@
 }
 
 .card__input:invalid + .card__input_status{
-  background-image: url(../img/notcheck.png);
+  background-image: url('../img/notcheck.png');
   background-size: 100%;
 }
 
