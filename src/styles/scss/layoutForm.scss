@@ -60,6 +60,7 @@
 
 .section_wrapper{
   display: flex;
+  justify-content: space-between;
   padding-bottom: 100px;
   @include mobileS{
     flex-direction: column;
@@ -70,10 +71,13 @@
 }
 
 .form__tone{
-  margin-right: 60px;
   @include mobileS{
     margin:0;
   }
+}
+
+.form__range{
+  padding-right: 70px;
 }
 
 .form__tone_radio-wrapper{
@@ -85,6 +89,7 @@
     align-items: center;
   }
 }
+
 
 .form__range-wrapper{
   margin-left:70px;
